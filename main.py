@@ -19,7 +19,7 @@ print(start)
 playsound("welcomesound.mpga")
 password = "stalinjunior"
 login = input("password?: ")
-if login == password :
+if login == password : ## you should change here to take password control from database or json like data structure.
     print("welcome sir")
     def ret():
         process = input("what do you want to do?: ")
